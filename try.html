@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel=stylesheet" href="got.css">
+  </head>
+    <body style="background-color: rgba(64, 0, 128, 0.425);">
+        <div class="wrapper">
+            <form action="">
+                <h1>Log in</h1>
+                <input type="text" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="password" required>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me?</label>
+                <a href="#">forgot password</a>
+                </div>
+                <button type="submit" class="btm">log in</button>
+                div class="r<egister-link">
+                    <p>don't have an account?<a href="#">register</a></p>
+                </div>
+
+            </form>
+            <script>
+    
+                function login()
+                {
+                  var user = 'admin', pwd = 12345;
+          
+          
+                  var username = document.getElementById("username");
+                  var password = document.getElementById("password");
+          
+                  console.log(typeof(password.value));
+                  console.log(typeof(pwd));
+          
+                  if(username.value == user && password.value == pwd){
+                    alert('Login Successfully');
+                  }else{ 
+                    alert("Incorrect Username or Password!");
+                  }
+
+    </body>
+</html>
